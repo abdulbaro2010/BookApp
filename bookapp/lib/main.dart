@@ -1,8 +1,10 @@
 import 'package:bookapp/homepage.dart';
 import 'package:flutter/material.dart';
-void main(){
+
+void main() {
   runApp(book());
 }
+
 // ignore: camel_case_types
 class book extends StatelessWidget {
   @override
@@ -11,7 +13,6 @@ class book extends StatelessWidget {
       title: 'Book Store',
       debugShowCheckedModeBanner: false,
       home: HomePage(),
-      
     );
   }
 }
